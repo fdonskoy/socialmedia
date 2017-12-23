@@ -1,0 +1,50 @@
+html {
+	font-family: sans-serif;
+}
+
+header {
+	background: #3b5998;
+}
+
+header .logo {
+	color: white;
+	display: inline-block;
+}
+
+header .logo a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+header .menu {
+	display: inline-block;
+}
+
+header .menu ul li {
+	display: inline-block;
+}
+
+header .icon-links {
+	display: inline-block;
+}
+
+header .icon-links ul li {
+	display: inline-block;
+}
+
+header .quick-options {
+	display: inline-block;
+}
+
+header .icon-links .privacy {
+	display: inline-block;
+}
+
+header .search-area {
+	display: inline-block;
+}
+
+header .search-area ul li {
+	display: inline-block;
+}

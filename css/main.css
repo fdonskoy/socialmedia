@@ -6,6 +6,11 @@ html {
 	font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+/******************************************************/
 header {
 	background: #3b5998;
     padding: 15px;
@@ -101,20 +106,96 @@ header .search-area .fa-search {
     padding-right:5px;
 }
 
-input::-webkit-input-placeholder {
+header .search-area input::-webkit-input-placeholder {
     color: rgb(211, 210, 210) !important;
     }
      
-    input:-moz-placeholder { /* Firefox 18- */
-    color: rgb(211, 210, 210) !important;  
-    }
-     
-    input::-moz-placeholder {  /* Firefox 19+ */
-    color: rgb(211, 210, 210) !important;  
-    }
-     
-    input:-ms-input-placeholder {  
-    color: rgb(211, 210, 210) !important;  
-    }
+header .search-area input:-moz-placeholder { /* Firefox 18- */
+color: rgb(211, 210, 210) !important;  
+}
+    
+header .search-area input::-moz-placeholder {  /* Firefox 19+ */
+color: rgb(211, 210, 210) !important;  
+}
+    
+header .search-area input:-ms-input-placeholder {  
+color: rgb(211, 210, 210) !important;  
+}
 
+/*******************************************/
+#top-area {
+    padding: 200px 15px 90px 30px;
 
+    background: url(https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/19428681_249297375567839_4676891305677160448_n.jpg) 
+    no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+#top-area .profile-info .user-img {
+    padding:10px;
+    display: inline-block;
+}
+
+#top-area .profile-info .user-img img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+#top-area .profile-info .user-details {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    /* min-width: 300px; */
+}
+
+#top-area .profile-info .user-details h3 {
+    color:white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#top-area .profile-info .user-details a {
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    margin-left: -4px;
+    width: 46%;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-right: 10px;
+    transition: background .4s ease-in-out;
+}
+
+#top-area .profile-info .user-details a:hover {
+    background: #359FF4;
+}
+
+/*********************************************/
+
+#content-area {
+
+}
+
+#content-area .side-column {
+    width: 35%;
+    margin: 2.5%;
+    float:left;
+}
+
+#content-area .main-area {
+    width: 55%;
+    margin: 2.5%;
+    float:left;
+}

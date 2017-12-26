@@ -220,15 +220,12 @@ color: rgb(211, 210, 210) !important;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    /* display: inline-block; */
 }
 
 #content-area .widget-box .widget-title {
     display:inline-block;
     color: gray;
     padding-left: 10px;
-    /* padding-bottom: 5px; */
 }
 
 #content-area .intro h6 {
@@ -260,14 +257,6 @@ color: rgb(211, 210, 210) !important;
     max-width: 450px;
 }
 
-
-
-#content-area .main-area {
-    width: 55%;
-    margin: 2.5%;
-    float:left;
-}
-
 #content-area .photo {
     display:inline-block;
     width: 32%;
@@ -279,3 +268,192 @@ color: rgb(211, 210, 210) !important;
     -o-background-size: cover;
     background-size: cover;
 }
+
+#content-area .main-area {
+    width: 55%;
+    margin: 2.5%;
+    float:left;
+}
+
+#content-area .main-area .main-area-header {
+    margin-bottom: 20px;
+} 
+
+#content-area .main-area .main-area-header .header-widget-container {
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#content-area .main-area .main-area-header .fa {
+    padding: 8px 8px 12px 8px;
+    font-size: 20px;
+}
+
+#content-area .widget-box li {
+    padding: 10px 45px 10px 25px;
+    /* display:inline-block; */
+    border-bottom: 3px solid #FFF;
+    width:20%;
+    color:gray;
+    float:left;
+    transition: all 0.4s ease-in-out;
+}
+
+#content-area .widget-box li:hover {
+    color: #359FF4;
+    border-bottom: 3px solid #359FF4;
+    cursor: pointer;
+    
+}
+
+#content-area .widget-box li:nth-child(5) {
+    padding: 15px 0px 19px 0px;
+    text-align: right;
+}
+
+#content-area .main-area-post .post-info-header {
+    overflow: auto;
+}
+
+#content-area .main-area-post .post-info-header .user-img {
+    float:left;
+    padding: 10px;  
+}
+
+#content-area .main-area-post .post-info-header .user-img img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+#content-area .main-area-post .post-info-header .post-info {
+    float:left;
+    padding: 10px;
+    /* height: 70px; */
+    text-decoration: none;
+    color: gray;
+    margin-top: 20px;
+}
+
+#content-area .main-area-post .post-info-header .post-info span {
+    color: #BEBEBE;
+}
+
+#content-area .main-area-post .post-info-header .show-more{
+    color:gray;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    text-align: right;
+    margin-top: 35px;
+}
+
+#content-area .main-area-post .post-info-header .post-info  a{
+    /* height: 70px; */
+    text-decoration: none;
+    color: #359FF4;
+}
+
+#content-area .main-area-post .post-info-header .post-info  h6{
+    padding-bottom: 10px;
+}
+
+#content-area .main-area-post .post-img .fa {
+    font-size: 25px;
+    color:lightgray;
+    padding: 20px;
+}
+
+#content-area .main-area-post .post-img .this-curse-img {
+    width: 792px;
+    max-width: 792px;
+    height: 360;
+    background: url(https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/26025689_1581237021915708_5204243768494945621_o.jpg?oh=eefffd7ad67c9b91c3f634bad05995c4&oe=5ABB5ED8) 
+    no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#content-area .main-area-post .post-img span {
+    /* padding: 5px; */
+    color:gray;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 5px 5px 10px 10px;
+}
+
+#content-area .main-area-post .post-img .fa-comment {
+    /* padding: 5px; */
+    float: right;
+}
+
+#content-area .main-area-post .post-img .thumbs-o-up {
+    padding: 5px;
+    /* float: left; */
+}
+
+#content-area .main-area-post .post-img .fa-share {
+    padding: 5px;
+    /* float: left; */
+}
+
+#content-area .main-area-post .post-reply {
+    background: #F8F8F8;
+}
+
+#content-area .main-area-post .post-reply .post-info {
+    width: 85%;
+}
+
+#content-area .main-area-post .post-reply .post-info h6 {
+    padding-bottom: 10px;
+}
+
+#content-area .main-area-post .post-reply .post-info h6 span {
+    float:right;
+    color:gray;
+    font-weight: 100;
+}
+
+#content-area .main-area-post .comment {
+    width: 85%;
+    padding-bottom:0px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+#content-area .main-area-post .comment .fa {
+    padding: 0px 5px 0px 15px;
+    right: 0;
+    font-size: 20px;
+    float: right;
+}
+
+#content-area  .comment input {
+    border: none;
+    border-bottom: solid 1px #FAFAFA;
+    font-size: 20px;
+    color: gray;
+    outline: none;
+    width: 75%;
+}
+
+#content-area .main-area-ad {
+    
+    width: 792px;
+    max-width: 792px;
+    height: 390;
+    background: url(http://psychographism.squarespace.com/storage/DYT-25-pubs-pur-le-cafe-1.jpg?__SQUARESPACE_CACHEVERSION=1394657943257) 
+    no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+/*********************************/

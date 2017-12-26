@@ -272,7 +272,10 @@ color: rgb(211, 210, 210) !important;
 #content-area .main-area {
     width: 55%;
     margin: 2.5%;
-    float:left;
+    margin-top: -95px;
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
 }
 
 #content-area .main-area .main-area-header {
